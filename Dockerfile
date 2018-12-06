@@ -1,6 +1,6 @@
 FROM chainmapper/walletbase-xenial
 	
-ENV WALLET_URL=https://github.com/project-qmc/QMC/releases/download/v1.1.2/linux_cli.tar.xz
+ENV WALLET_URL=https://github.com/project-qmc/QMC/releases/download/v1.1.3/linux_cli.tar.xz
 
 RUN wget $WALLET_URL -O /tmp/wallet.tar.xz \
 	&& cd /usr/local/bin \
